@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Bill Page</title>
+    <link rel="stylesheet" href="bill.css" />
+  </head>
+  <body>
+    <h1 class="h1">Confirm Your Payment</h1>
+    <div class="form-container">
+      <div class="form1">
+        <form action="pay.html">
+          <div class="row1">
+            <div class="h5">
+              <h5 for="name">Card Holder Name</h5>
+            </div>
+            <div class="input">
+              <input type="text" placeholder="Enter your name...." />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="h5">
+              <h5>Card Number</h5>
+            </div>
+            <div class="input">
+              <input type="text" placeholder="Enter your card number...." />
+            </div>
+          </div>
+          <div class="row3">
+            <div class="h5">
+              <h5>CVV</h5>
+            </div>
+            <div class="input">
+              <input type="text" placeholder="Enter your CVV" />
+            </div>
+          </div>
+          <div class="row5">
+            <div class="h5">
+              <h5>Amount</h5>
+            </div>
+            <div class="input">
+              <input type="text" placeholder="Enter Amount..." />
+            </div>
+          </div>
+
+          <div class="row4">
+            <div class="h5">
+              <h5>Expired Date</h5>
+            </div>
+            <div class="select">
+              <select name="month" id="month">
+                <option value="month">MON.....</option>
+                <option value="month">Jan</option>
+                <option value="month">Feb</option>
+                <option value="month">Mar</option>
+                <option value="month">Apl</option>
+                <option value="month">May</option>
+                <option value="month">Jun</option>
+                <option value="month">Jul</option>
+                <option value="month">Aug</option>
+                <option value="month">Sep</option>
+                <option value="month">Oct</option>
+                <option value="month">Nov</option>
+                <option value="month">Dec</option>
+              </select>
+              <select name="year" id="year">
+                <option value="month">YEAR</option>
+                <option value="year">2022</option>
+                <option value="year">2021</option>
+                <option value="year">2020</option>
+                <option value="year">2019</option>
+                <option value="year">2018</option>
+                <option value="year">2017</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <input type="submit" class="btn btn-primary" />
+          <a href="home.html">
+            <h5 class="btn btn-danger">Cancel</h5>
+          </a>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

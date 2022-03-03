@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Gram Panchayat</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <style>
+      .carousel-item {
+        height: 35em;
+      }
+    </style>
+    <header>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./home.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./payments.html">Pay Bills</a>
+        </li>
+        <div class="Logo-name"><h3>Gram Panchayat Info System</h3></div>
+      </ul>
+    </header>
+    <section>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="electricity.html">
+              <img
+                src="./images/electricity.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Electricity Bill</h5>
+              <p>Pay your Electricity bill here using GPIS portal...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./credit.html">
+              <img
+                src="./images/credit.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Credit Card Bill</h5>
+              <p>Pay your Credit Card bill here using GPIS portal...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./house.html">
+              <img
+                src="images/house.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>House Tax</h5>
+              <p>Pay your House Tax here using GPIS portal...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./library.html">
+              <img
+                src="images/library.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Library Bill</h5>
+              <p>Pay your Library bill here using GPIS portal...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./water.html">
+              <img
+                src="images/water.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Water Bill</h5>
+              <p>Pay your water bill here using GPIS portal...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./wealth.html">
+              <img
+                src="./images/wealth.jpg"
+                class="d-block w-100"
+                alt="Image cannot be displayed"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wealth Tax</h5>
+              <p>Pay your Wealth Tax here using GPIS portal...</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br />
+      <style>
+        .h1 {
+          text-align: center;
+          font-family: Georgia, "Times New Roman", Times, serif;
+        }
+      </style>
+      <div>
+        <h1 class="h1">GPIS</h1>
+        <h2 class="h1">For Development of Rural India</h2>
+        <br />
+      </div>
+      <div class="container">
+        <aside class="aside">
+          <img src="./images/logo.jpg" alt="Image cannot be displayed" />
+        </aside>
+        <p class="p">
+          Gram Panchayat (English: Village council) is a basic village-governing
+          institute in Indian villages. It is a democratic structure at the
+          grass-roots level in India. It is a political institute, acting as
+          cabinet of the village. The Gram Sabha work as the general body of the
+          Gram Panchayat. The members of the Gram Panchayat are elected by the
+          Gram Sabha.[3] There are about 250,000 Gram Panchayats in India.[4][5]
+          Gram Panchayat (English: Village council) is a basic village-governing
+          institute in Indian villages. It is a democratic structure at the
+          grass-roots level in India. It is a political institute, acting as
+          cabinet of the village. The Gram Sabha work as the general body of the
+          Gram Panchayat. The members of the Gram Panchayat are elected by the
+          Gram Sabha.[3] There are about 250,000 Gram Panchayats in India.[4][5]
+        </p>
+      </div>
+      <br />
+      <div class="card-container">
+        <div class="m">
+          <div class="card mb-3" style="max-width: 1340px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/images/bg.jpg"
+                  class="img-fluid rounded-start"
+                  alt="Image cannot be displayed"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">GPIS IMPORTANCE</h5>
+                  <p class="card-text">
+                    Gram Panchayat (English: Village council) is a basic
+                    village-governing institute in Indian villages. It is a
+                    democratic structure at the grass-roots level in India. It
+                    is a political institute, acting as cabinet of the village.
+                    The Gram Sabha work as the general body of the Gram
+                    Panchayat. The members of the Gram Panchayat are elected by
+                    the Gram Sabha.[3] There are about 250,000 Gram Panchayats
+                    Gram Panchayat (English: Village council) is a basic
+                    village-governing institute in Indian villages. It is a
+                    democratic structure at the grass-roots level in India. It
+                    is a political institute, acting as cabinet of the village.
+                    The Gram Sabha work as the general body of the Gram
+                    Panchayat. The members of the Gram Panchayat are elected by
+                    the Gram Sabha.[3] There are about 250,000 Gram Panchayats
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <footer>
+      <h2 class="h1">About Us</h2>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2>Gram Panchayat@</h2>
+          <p>Bright futher of India</p>
+          <br />
+          <p>Copyright@2022 GramPanchayat</p>
+        </div>
+        <div class="footer-right">
+          <ul>
+            <li>
+              <h3>GPIS</h3>
+              <p>Andhra Pradesh</p>
+            </li>
+            <li>
+              <p>9364852122</p>
+            </li>
+            <li>
+              <p>andhrapradesh@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
