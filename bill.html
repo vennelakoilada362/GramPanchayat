@@ -11,6 +11,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script language="javascript">
+      function alert() {
+        alert("Do you want to cancel");
+      }
+    </script>
     <title>Bill Page</title>
     <link rel="stylesheet" href="./css/bill.css" />
   </head>
@@ -86,7 +91,7 @@
           <br />
           <input type="submit" class="btn btn-primary" />
           <a href="home.html">
-            <h5 class="btn btn-danger">Cancel</h5>
+            <h5 class="btn btn-danger" onClick="alert">Cancel</h5>
           </a>
         </form>
       </div>

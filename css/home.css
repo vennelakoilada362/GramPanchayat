@@ -1,5 +1,5 @@
-header {
-  background-image: url("./images/bg.jpg");
+.header {
+  background-image: url("../images/bg.jpg");
   /* background-color: rgb(95, 131, 100); */
 
   background-repeat: no-repeat;
