@@ -1,24 +1,18 @@
 .header {
   background-image: url("../images/bg.jpg");
-  /* background-color: rgb(95, 131, 100); */
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* background-color: rgb(188, 233, 196); */
 }
 
 section {
-  /* background-image: url("./images/bg.jpg"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* background-color: rgb(191, 247, 198); */
 }
 
 .Logo-name {
   margin-left: 40em;
-  /* letter-spacing: 2px; */
   text-transform: uppercase;
   margin-top: 1px;
   font-weight: 15px;
