@@ -70,3 +70,29 @@ footer {
 .footer-right {
   margin-left: 60em;
 }
+
+.hi,
+h2 {
+  transition: 1s;
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.hi,
+h2[data-scroll="in"] {
+  transform: translateX(0);
+  transition-delay: 0s;
+  opacity: 1;
+}
+
+.h1 {
+  transition: 1s;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.h1[data-scroll="in"] {
+  transform: translateY(0);
+  transition-delay: 0s;
+  opacity: 1;
+}
