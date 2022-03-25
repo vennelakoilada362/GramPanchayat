@@ -96,3 +96,21 @@ h2[data-scroll="in"] {
   transition-delay: 0s;
   opacity: 1;
 }
+
+.card-container,
+h5,
+img,
+p {
+  transition: 1s;
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.card-container,
+h5,
+img,
+p[data-scroll="in"] {
+  transform: translateX(0);
+  transition-delay: 0s;
+  opacity: 1;
+}
